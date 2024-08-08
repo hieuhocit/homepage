@@ -1,6 +1,7 @@
-function isEslintWorking() {
-  // It will show an error here if Eslint is working (remember to run npm run init-eslint before)
-return this;
-}
+// Components
+import App from './App';
 
-isEslintWorking();
+// Style
+import './styles/style.css';
+
+document.querySelector('#homepage').innerHTML = App();
